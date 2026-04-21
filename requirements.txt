@@ -1,0 +1,5 @@
+# Redis（可选，redis_id.py 连接真实 Redis 时需要）
+redis>=4.0.0
+
+# ZooKeeper（可选，snowflake.py 使用 ZK 分配 workerId 时需要）
+kazoo>=2.9.0
